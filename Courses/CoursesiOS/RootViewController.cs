@@ -25,11 +25,6 @@ namespace CoursesiOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
-            // Perform any additional setup after loading the view, typically from a nib.
-            UITextView textView = new UITextView(new CoreGraphics.CGRect(10, 10, 200, 50));
-            textView.Text = "Hi World, Sup?";
-            this.View.AddSubview(textView);
         }
 
         public override void ViewWillAppear(bool animated)
@@ -57,10 +52,17 @@ namespace CoursesiOS
 			titleLabel.Text = "prev button pressed";
 		}
 
-		partial void nextButtonTouched (UIButton sender)
-		{
-			titleLabel.Text = "next button pressed";
-		}
+        partial void nextButtonTouched(UIButton sender)
+        {
+            titleLabel.Text = "next button pressed";
+        }
+
+        public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+        {
+            base.PrepareForSegue(segue, sender);
+
+            
+        }
 
         #endregion
     }

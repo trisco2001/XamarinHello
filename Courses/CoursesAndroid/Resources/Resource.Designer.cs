@@ -45,7 +45,10 @@ namespace CoursesAndroid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int derpcat = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
 			
 			static Drawable()
 			{
@@ -65,6 +68,9 @@ namespace CoursesAndroid
 			
 			// aapt resource value: 0x7f050000
 			public const int buttonPrev = 2131034112;
+			
+			// aapt resource value: 0x7f050003
+			public const int imageView1 = 2131034115;
 			
 			// aapt resource value: 0x7f050002
 			public const int textTitle = 2131034114;

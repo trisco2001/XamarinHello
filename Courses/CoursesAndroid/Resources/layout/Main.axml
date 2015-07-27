@@ -24,4 +24,13 @@
         android:layout_above="@id/buttonPrev"
         android:id="@+id/textTitle"
         android:layout_centerHorizontal="true" />
+    <ImageView
+        android:src="@drawable/derpcat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textTitle"
+        android:id="@+id/imageView1"
+        android:minWidth="300dp"
+        android:minHeight="200dp"
+        android:layout_centerInParent="true" />
 </RelativeLayout>

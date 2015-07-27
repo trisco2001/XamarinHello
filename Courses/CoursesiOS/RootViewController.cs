@@ -52,6 +52,16 @@ namespace CoursesiOS
             base.ViewDidDisappear(animated);
         }
 
+		partial void prevButtonTouched (UIButton sender)
+		{
+			titleLabel.Text = "prev button pressed";
+		}
+
+		partial void nextButtonTouched (UIButton sender)
+		{
+			titleLabel.Text = "next button pressed";
+		}
+
         #endregion
     }
 }
